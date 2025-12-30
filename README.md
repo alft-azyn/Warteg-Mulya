@@ -59,6 +59,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 
+
+
+
+
+
+
+
 # 🍛 Warteg Mulya - Sistem Pemesanan Makanan Online
 
 **Warteg Mulya Web App** adalah aplikasi berbasis web yang dibangun menggunakan Framework Laravel. Aplikasi ini bertujuan untuk mendigitalisasi proses pemesanan makanan di Warung Tegal (Warteg), menghubungkan pelanggan di meja makan langsung dengan bagian dapur/admin.
@@ -66,11 +73,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ---
 
 ## 📸 Screenshots
-*(Simpan screenshot aplikasi Anda di folder public/img atau hapus bagian ini jika belum ada gambar)*
 
-| Halaman Utama | Halaman Keranjang | Admin Dashboard |
-|:---:|:---:|:---:|
-| ![Home](https://via.placeholder.com/300x200?text=Halaman+Menu) | ![Cart](https://via.placeholder.com/300x200?text=Keranjang) | ![Admin](https://via.placeholder.com/300x200?text=Dapur) |
+| Halaman Utama | Halaman Keranjang | Dapur Dashboard | Menu Dashboard |
+|:---:|:---:|:---:|:---:|
+| ![Home]([https://via.placeholder.com/300x200?text=Halaman+Menu](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image4.jpeg)) | ![Cart]([https://via.placeholder.com/300x200?text=Keranjang](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image3.jpeg)) | ![Dapur]([https://via.placeholder.com/300x200?text=Dapur](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image2.jpeg)) | ![Menu]([https://via.placeholder.com/300x200?text=Dapur](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image2.jpeg)](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image.png)) |
+
 
 ---
 
