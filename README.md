@@ -57,3 +57,44 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# 🍛 Warteg Mulya - Sistem Pemesanan Makanan Online
+
+**Warteg Mulya Web App** adalah aplikasi berbasis web yang dibangun menggunakan Framework Laravel. Aplikasi ini bertujuan untuk mendigitalisasi proses pemesanan makanan di Warung Tegal (Warteg), menghubungkan pelanggan di meja makan langsung dengan bagian dapur/admin.
+
+---
+
+## 📸 Screenshots
+*(Simpan screenshot aplikasi Anda di folder public/img atau hapus bagian ini jika belum ada gambar)*
+
+| Halaman Utama | Halaman Keranjang | Admin Dashboard |
+|:---:|:---:|:---:|
+| ![Home](https://via.placeholder.com/300x200?text=Halaman+Menu) | ![Cart](https://via.placeholder.com/300x200?text=Keranjang) | ![Admin](https://via.placeholder.com/300x200?text=Dapur) |
+
+---
+
+## 🚀 Fitur Utama
+
+Aplikasi ini dibagi menjadi dua modul utama:
+
+### 1. Modul Pelanggan (Frontend)
+- **Katalog Menu:** Menampilkan daftar makanan/minuman beserta harga dan kategori.
+- **Pencarian:** Fitur *Search Bar* untuk mencari menu tertentu.
+- **Keranjang Belanja (Cart):** Menyimpan item pesanan sementara sebelum checkout.
+- **Checkout:** Pemesanan instan dengan input Nama Pemesan dan Nomor Meja.
+
+### 2. Modul Admin/Dapur (Backend)
+- **Login Security:** Proteksi halaman admin menggunakan *Hardcoded Password* & Session.
+- **Manajemen Menu (CRUD):** Tambah, Edit, dan Hapus menu makanan secara dinamis.
+- **Monitoring Pesanan:** Halaman khusus koki untuk melihat pesanan masuk secara *real-time*.
+- **Manajemen Pesanan:** Menandai pesanan sebagai selesai (menghapus dari antrean).
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Framework:** [Laravel 10/11](https://laravel.com) (PHP)
+- **Frontend:** Blade Templates, Bootstrap 5
+- **Database:** MySQL
+- **Tools:** Composer, Artisan
