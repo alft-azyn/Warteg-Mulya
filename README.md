@@ -76,7 +76,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 | Halaman Utama | Halaman Keranjang | Dapur Dashboard | Menu Dashboard |
 |:---:|:---:|:---:|:---:|
-| ![Home]([https://via.placeholder.com/300x200?text=Halaman+Menu](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image4.jpeg)) | ![Cart]([https://via.placeholder.com/300x200?text=Keranjang](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image3.jpeg)) | ![Dapur]([https://via.placeholder.com/300x200?text=Dapur](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image2.jpeg)) | ![Menu]([https://via.placeholder.com/300x200?text=Dapur](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image2.jpeg)](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image.png)) |
+| ![Home]( https://via.placeholder.com/300x200?text=Halaman+Menu](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image4.jpeg ) | ![Keranjang]( https://via.placeholder.com/300x200?text=Keranjang](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image3.jpeg ) | ![Dapur]( https://via.placeholder.com/300x200?text=Dapur](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image2.jpeg ) | ![Menu]( https://via.placeholder.com/300x200?text=Dapur](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image2.jpeg)](https://github.com/alft-azyn/Warteg-Mulya/blob/master/img/image.png ) |
 
 
 ---
