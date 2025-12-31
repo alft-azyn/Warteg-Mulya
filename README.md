@@ -159,7 +159,7 @@ php artisan serve
 
 ---
 
-🔐 Akun Admin
+## 🔐 Akun Admin
 Untuk mengakses halaman Dapur atau Kelola Menu, silakan login melalui tombol di pojok kanan atas atau akses /login.
 
 Password Default: admin123
@@ -168,7 +168,7 @@ Password Default: admin123
 
 ---
 
-📂 Struktur Database
+## 📂 Struktur Database
 menus: Menyimpan data makanan (Nama, Kategori, Harga).
 
 orders: Menyimpan data transaksi (Nama Pemesan, No Meja, Total Harga).
