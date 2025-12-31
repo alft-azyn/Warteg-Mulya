@@ -124,7 +124,7 @@ Pastikan Composer sudah terinstall, lalu jalankan:
 composer install
 ```
 
-3. Setup Environment (.env)
+### 3. Setup Environment (.env)
 Duplikat file .env.example menjadi .env:
 ```bash
 cp .env.example .env
@@ -140,19 +140,19 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-4. Generate Key & Setup Storage
+### 4. Generate Key & Setup Storage
 ```bash
 php artisan key:generate
 php artisan storage:link
 ```
 
-5. Migrasi Database & Seeding
+### 5. Migrasi Database & Seeding
 Jalankan perintah ini untuk membuat tabel dan mengisi data menu awal:
 ```bash
 php artisan migrate:fresh --seed
 ```
 
-6. Jalankan Server
+### 6. Jalankan Server
 ```bash
 php artisan serve
 ```
