@@ -105,3 +105,72 @@ Aplikasi ini dibagi menjadi dua modul utama:
 - **Frontend:** Blade Templates, Bootstrap 5
 - **Database:** MySQL
 - **Tools:** Composer, Artisan
+
+---
+
+## ⚙️ Cara Instalasi (Installation)
+
+Ikuti langkah ini untuk menjalankan proyek di komputer lokal Anda:
+
+### 1. Clone Repository
+```bash
+git clone [https://github.com/alft-azyn/Warteg-Mulya.git](https://github.com/alfth-azyn/Warteg-Mulya.git)
+cd Warteg-Mulya
+```
+
+### 2. Install Dependencies
+Pastikan Composer sudah terinstall, lalu jalankan:
+```bash
+composer install
+```
+
+3. Setup Environment (.env)
+Duplikat file .env.example menjadi .env:
+```bash
+cp .env.example .env
+```
+
+Buka file .env dan atur konfigurasi database Anda:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=warteg-mulya
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+4. Generate Key & Setup Storage
+```bash
+php artisan key:generate
+php artisan storage:link
+```
+
+5. Migrasi Database & Seeding
+Jalankan perintah ini untuk membuat tabel dan mengisi data menu awal:
+```bash
+php artisan migrate:fresh --seed
+```
+
+6. Jalankan Server
+```bash
+php artisan serve
+```
+
+---
+
+🔐 Akun Admin
+Untuk mengakses halaman Dapur atau Kelola Menu, silakan login melalui tombol di pojok kanan atas atau akses /login.
+
+Password Default: admin123
+
+(Password dapat diubah di app/Http/Controllers/AuthController.php)
+
+---
+
+📂 Struktur Database
+menus: Menyimpan data makanan (Nama, Kategori, Harga).
+
+orders: Menyimpan data transaksi (Nama Pemesan, No Meja, Total Harga).
+
+order_items: Menyimpan detail item yang dipesan dalam satu transaksi.
